@@ -1,0 +1,30 @@
+body {
+    background-color: darkgrey;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:dimgrey
+}
+ 
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: white
+}
